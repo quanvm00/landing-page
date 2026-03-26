@@ -1,10 +1,13 @@
-// app/layout.tsx
 export const metadata = {
-  title: "Quan - AI Systems Builder",
-  description: "Portfolio",
+  title: "Quan | AI Systems Builder",
+  description: "Building AI-powered data systems",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body>{children}</body>
