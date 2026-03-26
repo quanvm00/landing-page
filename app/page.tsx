@@ -4,7 +4,13 @@ import { motion } from "framer-motion";
   Contact Me
 </button>
 
-const Section = ({ id, title, children }) => (
+type SectionProps = {
+  id: string;
+  title: string;
+  children: React.ReactNode;
+};
+
+const Section = ({ id, title, children }: SectionProps) => (
   <section id={id} className="max-w-6xl mx-auto py-16">
     <h2 className="text-3xl font-semibold mb-8">{title}</h2>
     {children}
