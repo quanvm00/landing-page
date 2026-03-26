@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+<button className="px-6 py-3 rounded-2xl bg-white text-black">
+  Contact Me
+</button>
 
 const Section = ({ id, title, children }) => (
   <section id={id} className="max-w-6xl mx-auto py-16">
@@ -9,7 +10,10 @@ const Section = ({ id, title, children }) => (
     {children}
   </section>
 );
-
+<div className="bg-gray-800 p-6 rounded-2xl">
+  <h3 className="text-xl font-bold mb-2">Title</h3>
+  <p className="text-gray-400">Description</p>
+</div>
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-800 text-white">
