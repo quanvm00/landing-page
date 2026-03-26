@@ -51,7 +51,7 @@ export default function LandingPage() {
         </p>
         <div className="space-x-4">
           <button  className="px-6 py-3 rounded-2xl">Hire Me</button>
-          <button  variant="outline" className="px-6 py-3 rounded-2xl">View Projects</button>
+          <button    className="px-6 py-3 rounded-2xl border border-white">View Projects</button>
         </div>
       </section>
 
@@ -149,10 +149,10 @@ export default function LandingPage() {
         <p className="text-gray-400 mb-6">Open for freelance & full-time opportunities.</p>
         <div className="space-x-4">
           <a href="mailto:yourmail@gmail.com">
-            <button className="px-6 py-3 rounded-2xl">Email</button>
+            <button className="px-6 py-3 rounded-2xl border border-white">Email</button>
           </a>
           <a href="#">
-            <button variant="outline" className="px-6 py-3 rounded-2xl">GitHub</button>
+            <button   className="px-6 py-3 rounded-2xl border border-white">GitHub</button>
           </a>
         </div>
       </section>
