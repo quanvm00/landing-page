@@ -50,8 +50,8 @@ export default function LandingPage() {
           From SQL to LLMs — I turn data into intelligent systems.
         </p>
         <div className="space-x-4">
-          <Button className="px-6 py-3 rounded-2xl">Hire Me</Button>
-          <Button variant="outline" className="px-6 py-3 rounded-2xl">View Projects</Button>
+          <button  className="px-6 py-3 rounded-2xl">Hire Me</button>
+          <button  variant="outline" className="px-6 py-3 rounded-2xl">View Projects</button>
         </div>
       </section>
 
@@ -149,10 +149,10 @@ export default function LandingPage() {
         <p className="text-gray-400 mb-6">Open for freelance & full-time opportunities.</p>
         <div className="space-x-4">
           <a href="mailto:yourmail@gmail.com">
-            <Button className="px-6 py-3 rounded-2xl">Email</Button>
+            <button className="px-6 py-3 rounded-2xl">Email</button>
           </a>
           <a href="#">
-            <Button variant="outline" className="px-6 py-3 rounded-2xl">GitHub</Button>
+            <button variant="outline" className="px-6 py-3 rounded-2xl">GitHub</button>
           </a>
         </div>
       </section>
