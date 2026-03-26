@@ -1,4 +1,5 @@
 import React from "react";
+import { Card, CardContent } from "@/components/ui/card";
 import { motion } from "framer-motion";
 <button className="px-6 py-3 rounded-2xl bg-white text-black">
   Contact Me
